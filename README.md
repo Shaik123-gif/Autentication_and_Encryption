@@ -1,5 +1,7 @@
 # Authentication_and_Encryption
 
+# Authentication
+
 <ul>
 <li>The main idea of this project is to simulate the authentication and encryption of user’s password.</li>
 <li>Authentication is the process of recognizing a user’s identity. It is the mechanism of associating an incoming request with a set of identifying credentials. </li>
@@ -23,6 +25,7 @@
 <br>
 ![image](https://user-images.githubusercontent.com/62476583/116648501-d21b6300-a99a-11eb-93df-f9d50b974e90.png)
 <br>
+
 # Work Flow
 
 The general workflow for account registration and authentication in a hash-based account system is as follows:<br>
