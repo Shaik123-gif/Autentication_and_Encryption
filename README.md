@@ -1,10 +1,12 @@
 # Authentication_and_Encryption
-The main idea of this project is to simulate the authentication and encryption of user’s password.<br>
-Authentication is the process of recognizing a user’s identity. It is the mechanism of associating an incoming request with a set of identifying credentials. <br>
-The credentials provided are compared to those on a file in a database of the authorized user’s information on a local operating system or within an authentication server.<br>
-The registered users are the only one, who can access the resources which are present in the website.<br>
-The second main part of this project is, the website won’t save the user’s plain password in the database. It stores the encrypted password in the database.<br>
-In this way, we are enhancing the security of user’s password.<br>
+<ul>
+<li>The main idea of this project is to simulate the authentication and encryption of user’s password.</li>
+<li>Authentication is the process of recognizing a user’s identity. It is the mechanism of associating an incoming request with a set of identifying credentials. </li>
+<li>The credentials provided are compared to those on a file in a database of the authorized user’s information on a local operating system or within an authentication server.</li>
+<li>The registered users are the only one, who can access the resources which are present in the website.</li>
+<li>The second main part of this project is, the website won’t save the user’s plain password in the database. It stores the encrypted password in the database.</li>
+<li>In this way, we are enhancing the security of user’s password.</li>
+</ul>
 # Encryption
 In this project, we are encrypting the user’s password using a built in npm package called Bcrypt.<br>
 This package encrypts the user’s password by using Hashing & Salting methods.<br>
