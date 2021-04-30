@@ -1,4 +1,5 @@
 # Authentication_and_Encryption
+
 <ul>
 <li>The main idea of this project is to simulate the authentication and encryption of user’s password.</li>
 <li>Authentication is the process of recognizing a user’s identity. It is the mechanism of associating an incoming request with a set of identifying credentials. </li>
@@ -7,14 +8,18 @@
 <li>The second main part of this project is, the website won’t save the user’s plain password in the database. It stores the encrypted password in the database.</li>
 <li>In this way, we are enhancing the security of user’s password.</li>
 </ul>
+
 # Encryption
-In this project, we are encrypting the user’s password using a built in npm package called Bcrypt.<br>
-This package encrypts the user’s password by using Hashing & Salting methods.<br>
-Normally hash is generated when ever we pass a password into a hash function.<br>
-But here to make the password even more secure, we are salting the password and passing into a hash function to generate a hash.<br>
-In this package, we have one more parameter called salt Rounds. Basically if the value of this salt Rounds is 10. That means the algorithm runs for ten(10) rounds.<br>
-By doing this, we are making this algorithm even more stronger.<br>
-That’s why, it is very difficult to crack this encrypted password.<br><br>
+
+<ul>
+<li>In this project, we are encrypting the user’s password using a built in npm package called Bcrypt.</li>
+<li>This package encrypts the user’s password by using Hashing & Salting methods.</li>
+<li>Normally hash is generated when ever we pass a password into a hash function.</li>
+<li>But here to make the password even more secure, we are salting the password and passing into a hash function to generate a hash.</li>
+<li>In this package, we have one more parameter called salt Rounds. Basically if the value of this salt Rounds is 10. That means the algorithm runs for ten(10) rounds.</li>
+<li>By doing this, we are making this algorithm even more stronger.</li>
+<li>That’s why, it is very difficult to crack this encrypted password.</li>
+</ul>
 ![image](https://user-images.githubusercontent.com/62476583/116648501-d21b6300-a99a-11eb-93df-f9d50b974e90.png)
 <br>
 # Work Flow
