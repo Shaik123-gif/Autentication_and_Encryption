@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: Sample
+pool: Sample
 
 steps:
 - task: NodeTool@0
